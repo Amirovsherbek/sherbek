@@ -38,7 +38,7 @@ function App() {
                            <img src={call} alt="error" />
                      </div>
                      <div className="contact_link">
-                         <div>+998 55 500 37 00</div>
+                         <div>+998 55s 500 37 00</div>
                      </div>
                  </div>
                  <div className="call_contact">
