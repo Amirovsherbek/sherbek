@@ -4,8 +4,10 @@ import Kurs from "./kurslar/kurs";
 import Afzal from "./afzaliklar/afzaliklar";
 import About from "./about/about";
 import Footer from "./footer/footer";
-import call from '../src/image/call.png'
-import telegram from '../src/image/telegram.png'
+import call from '../src/image/call.png';
+import email from '../src/image/fi_mail.png';
+import gps from '../src/image/gps.png';
+import telegram from '../src/image/telegram.png';
 import './App.css'
 import { NavLink } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -38,23 +40,23 @@ function App() {
                            <img src={call} alt="error" />
                      </div>
                      <div className="contact_link">
-                         <div>+998 55s 500 37 00</div>
-                     </div>
-                 </div>
-                 <div className="call_contact">
-                     <div className="contact_icon">
-                           <img src={call} alt="error" />
-                     </div>
-                     <div className="contact_link">
                          <div>+998 55 500 37 00</div>
                      </div>
                  </div>
                  <div className="call_contact">
                      <div className="contact_icon">
-                           <img src={call} alt="error" />
+                           <img src={email} alt="error" />
                      </div>
                      <div className="contact_link">
-                         <div>+998 55 500 37 00</div>
+                         <div>registan-it-school.uz</div>
+                     </div>
+                 </div>
+                 <div className="call_contact">
+                     <div className="contact_icon">
+                           <img src={gps} alt="error" />
+                     </div>
+                     <div className="contact_link">
+                         <div>Toshkent, Amir Temur 129B</div>
                      </div>
                  </div>
               </div>
@@ -70,6 +72,7 @@ function App() {
                    <NavLink ><img src={telegram} alt="telegram" /></NavLink>
                 </div>
              </div>
+            
         </div>
     </div>
   );
