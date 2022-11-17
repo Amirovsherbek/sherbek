@@ -131,6 +131,16 @@
 }
 .contact-icon{
     margin-left: 5px;
+
+}
+.networks{
+    font-size: 1.25rem;
+    color:#FFFFFF;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.networks:hover{
+    color: #FFFFFF;
 }
 @media only screen and (max-width:475px) {
     .container{

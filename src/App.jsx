@@ -7,7 +7,6 @@ import Footer from "./footer/footer";
 import call from '../src/image/call.png';
 import email from '../src/image/fi_mail.png';
 import gps from '../src/image/gps.png';
-import telegram from '../src/image/telegram.png';
 import './App.css'
 import { NavLink } from "react-router-dom";
 import { FaTelegramPlane, FaInstagram,FaFacebook,FaTiktok } from "react-icons/fa";
@@ -67,10 +66,10 @@ function App() {
                     <div>© 2021 "Registon IT School" MChJ</div>
                 </div>
                 <div className="messenger_row">
-                   <NavLink ><span className="contact_icon"><FaTelegramPlane/></span></NavLink>
-                   <NavLink ><span className="contact_icon"><FaInstagram/></span></NavLink>
-                   <NavLink ><span className="contact_icon"><FaFacebook/></span></NavLink>
-                   <NavLink ><span className="contact_icon"><FaTiktok/></span></NavLink>
+                   <NavLink className={"networks"} ><span className="contact_icon"><FaTelegramPlane/></span></NavLink>
+                   <NavLink className={"networks"} ><span className="contact_icon"><FaInstagram/></span></NavLink>
+                   <NavLink className={"networks"}  ><span className="contact_icon"><FaFacebook/></span></NavLink>
+                   <NavLink className={"networks"} ><span className="contact_icon"><FaTiktok/></span></NavLink>
                 </div>
              </div>
             
