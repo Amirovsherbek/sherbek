@@ -134,10 +134,10 @@
 
 }
 .networks{
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     color:#FFFFFF;
     text-decoration: none;
-    margin-left: 5px;
+    margin-left: 15px;
 }
 .networks:hover{
     color: #FFFFFF;
