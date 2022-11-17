@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
     return (
     <div className="container">
-       <div className="navbar_row">
+       <div className="navbar_row px-2">
              <Navbar/>
         </div>
         <div className="main_box_row">
