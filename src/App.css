@@ -127,9 +127,10 @@
 .messenger_row{
     width: 66%;
     height: 100%;
+    display: flex;
 }
-.messenger_row img{
-    margin-left: 15px;
+.contact-icon{
+    margin-left: 5px;
 }
 @media only screen and (max-width:475px) {
     .container{

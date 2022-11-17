@@ -10,6 +10,7 @@ import gps from '../src/image/gps.png';
 import telegram from '../src/image/telegram.png';
 import './App.css'
 import { NavLink } from "react-router-dom";
+import { FaTelegramPlane, FaInstagram,FaFacebook,FaTiktok } from "react-icons/fa";
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
     return (
@@ -66,10 +67,10 @@ function App() {
                     <div>© 2021 "Registon IT School" MChJ</div>
                 </div>
                 <div className="messenger_row">
-                   <NavLink ><img src={telegram} alt="telegram" /></NavLink>
-                   <NavLink ><img src={telegram} alt="telegram" /></NavLink>
-                   <NavLink ><img src={telegram} alt="telegram" /></NavLink>
-                   <NavLink ><img src={telegram} alt="telegram" /></NavLink>
+                   <NavLink ><span className="contact_icon"><FaTelegramPlane/></span></NavLink>
+                   <NavLink ><span className="contact_icon"><FaInstagram/></span></NavLink>
+                   <NavLink ><span className="contact_icon"><FaFacebook/></span></NavLink>
+                   <NavLink ><span className="contact_icon"><FaTiktok/></span></NavLink>
                 </div>
              </div>
             
