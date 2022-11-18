@@ -130,8 +130,29 @@
         text-align: center;
         color: #333333;
     }
-    
+   
 }  
+@media (min-width:475.1px) and (max-width:670px){
+       .kurslar{
+        height: 85%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+       }
+       .k-card:nth-child(even){
+        margin-left: 20px;
+       }
+       .kurs_them{
+        height: 15%;
+       }
+       .k-card{
+        width: 45%;
+        height: 45%;
+        box-sizing: border-box;
+        
+    }
+}
 @media only screen and (min-width:476px) {
     .kurslar{
         display: flex;

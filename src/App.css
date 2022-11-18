@@ -203,3 +203,8 @@
     }
     
 }    
+@media (min-width:475.1px) and (max-width:670px){
+    .kurs_row{
+        height: 180vh;
+    }
+}
