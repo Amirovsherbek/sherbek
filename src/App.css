@@ -7,11 +7,11 @@
     overflow: hidden;
 }
 .navbar_row{
-    width: 80%;
+    width: 100%;
     height: 150px;
 }
 .main_box_row{
-     width: 80%;
+     width: 100%;
      height: 50%;
 }
 .kurs_row{
@@ -21,13 +21,13 @@
     margin-bottom: 10px;
 }
 .afzal_row{
-    width: 80%;
+    width: 100%;
     height: 15%;
     margin-top: 30px;
     margin-bottom: 10px;
 }
 .about_row{
-    width: 80%;
+    width: 100%;
     height: 70%;
     margin-top:70px;
     margin-bottom: 10px;
@@ -50,7 +50,7 @@
     justify-content: center;
 }
 .footer_contact{
-    width: 80%;
+    width: 100%;
     height: 48%;
     display: flex;
     flex-wrap: wrap;
