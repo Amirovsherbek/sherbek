@@ -71,6 +71,7 @@
         height: 24px;
         text-align: center;
         display: block;
+        margin-top: 25px;
         color: #000000;
     }
     .navbar_logotip{
@@ -116,7 +117,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        color: #FFFFFF;
+        color: #000000;
     }
-  
 }

@@ -40,11 +40,13 @@
     height: 45%;
     margin-left: 15px;
     margin-top: 10px;
+    box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
     /* padding: 15px 20px;
     margin-left: 10px;
     margin-bottom: 10px; */
 }
-.w-100, .card-header:first-child, .card-body{
+
+.w-100, .card, .card-header:first-child, .card-body{
     border: 1px solid #F7FCFC;
     background-color: #F7FCFC;
 }
@@ -89,9 +91,10 @@
         align-items: center;
      }
      .about_card{
-        width:5000px;
+        width:500px;
         height: 100%;
         margin-left: 20px;
+        box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
      }
      .about_card_avatar{
       transform: scale(0.8);    
