@@ -10,7 +10,7 @@ function Kurs(){
             </div>
            <div className="kurslar">
              <div className="k-card">
-                <div className="card w-100 mx-1 my-2 ">                  
+                <div className="card w-100  mx-1 my-2 ">                  
                      <img src="https://brunoyam.com/storage/post/37/9b9b7f01c880573efaf20d234b1eea57.png" alt="motion dizayn" />
                    <div className="card-header">
                      <h4  className='card-title'>

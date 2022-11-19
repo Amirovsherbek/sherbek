@@ -19,7 +19,7 @@ function Afzal(){
            </div>
            <div className="afzaliklar_card">
            <div className="icon_box">
-              <span><i class="fa-solid fa-user-group"></i></span>
+              <span></span>
            </div>
            <div className="card_box">
               <div>Do’stlar</div>
@@ -28,7 +28,7 @@ function Afzal(){
            </div>
            <div className="afzaliklar_card">
            <div className="icon_box">
-              <span><i class="fa-solid fa-user-group"></i></span>
+              <span></span>
            </div>
            <div className="card_box">
               <div>Do’stlar</div>
@@ -37,7 +37,7 @@ function Afzal(){
            </div>
            <div className="afzaliklar_card">
            <div className="icon_box">
-              <span><i class="fa-solid fa-user-group"></i></span>
+              <span></span>
            </div>
            <div className="card_box">
               <div>Do’stlar</div>

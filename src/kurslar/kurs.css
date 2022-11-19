@@ -139,7 +139,6 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: flex-start;
-        background-color: yellow;
         margin-top:0px;
        }
        .k-card:nth-child(even){
@@ -147,14 +146,12 @@
        }
        .kurs_them{
         height: 10%;
-        background-color: blue;
         margin-bottom: 0px;
        }
        .k-card{
         width: 45%;
-        height: 45%;
+        height: 500px;
         box-sizing: border-box;
-        background-color: black;   
     }
 }
 @media only screen and (min-width:476px) {
