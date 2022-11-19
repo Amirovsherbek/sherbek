@@ -59,7 +59,7 @@
 .no_hamburger{
     display: none;
 }
-@media (min-width:475.1px) and (max-width:670px){
+@media (min-width:475.1px) and (max-width:720px){
     .navbar{
         width: 100%;
     }

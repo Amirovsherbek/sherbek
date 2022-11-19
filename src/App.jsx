@@ -13,7 +13,7 @@ import { FaTelegramPlane, FaInstagram,FaFacebook,FaTiktok } from "react-icons/fa
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
     return (
-    <div className="container">
+    <div className="containers">
        <div className="navbar_row px-2">
              <Navbar/>
         </div>
@@ -23,6 +23,7 @@ function App() {
         <div className="kurs_row">
              <Kurs/>
         </div>
+        <br />
         <div className="afzal_row">
              <Afzal/>
         </div>

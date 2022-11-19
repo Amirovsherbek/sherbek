@@ -1,5 +1,5 @@
-.container{
-    width: 100%;
+.containers{
+    width: 95%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -203,8 +203,13 @@
     }
     
 }    
-@media (min-width:475.1px) and (max-width:670px){
+@media (min-width:475.1px) and (max-width:720px){
     .kurs_row{
-        height: 180vh;
+        height: 170vh;
+        display: block;
+        background-color: red;
+    }
+    .afzal_row{
+        height: 50vh;
     }
 }

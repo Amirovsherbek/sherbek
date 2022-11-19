@@ -132,25 +132,29 @@
     }
    
 }  
-@media (min-width:475.1px) and (max-width:670px){
+@media (min-width:475.1px) and (max-width:720px){
        .kurslar{
         height: 85%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: flex-start;
+        background-color: yellow;
+        margin-top:0px;
        }
        .k-card:nth-child(even){
         margin-left: 20px;
        }
        .kurs_them{
-        height: 15%;
+        height: 10%;
+        background-color: blue;
+        margin-bottom: 0px;
        }
        .k-card{
         width: 45%;
         height: 45%;
         box-sizing: border-box;
-        
+        background-color: black;   
     }
 }
 @media only screen and (min-width:476px) {
