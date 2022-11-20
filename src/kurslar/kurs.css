@@ -93,8 +93,7 @@
   }
 .kurslar::-webkit-scrollbar-thumb:hover {
     background-color:black; 
-  }
-
+}
 @media only screen and (max-width:475px) {
     .kurs{
         width: 100%;
@@ -147,6 +146,9 @@
        .kurs_them{
         height: 10%;
         margin-bottom: 0px;
+       }
+       .kurs_them div{
+        color: #333333;
        }
        .k-card{
         width: 45%;

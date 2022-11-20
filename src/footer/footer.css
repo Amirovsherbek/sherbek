@@ -112,3 +112,25 @@
     }
   
 }
+@media(min-width:475.1px) and (max-width:720px){
+    .footer_title{
+        width: 100%;
+    }
+    .form_users{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .form{
+        width: 80%;
+        margin-top: 20px;
+    }
+}
+@media(min-width:475.1px) and (max-width:550px){
+    .btn_add{width: 50%;margin-top: 20px;}
+}
+@media(min-width:550.1px) and (max-width:720px){
+    .btn_add{width: 30%;margin-top: 20px;}
+}

@@ -3,7 +3,7 @@ import './navbar.css'
 import Logotip from '../image/logotip.png'
 import { useState } from 'react';
 import {GiHamburgerMenu} from 'react-icons/gi'
-import {Modal,ModalHeader,ModalBody,ModalFooter,Button} from 'reactstrap'
+import {Modal,ModalHeader,ModalBody} from 'reactstrap'
 function Navbar() {
   const [hamburger,setHamburger]=useState(false)
   const isopen = () => setHamburger(!hamburger);
